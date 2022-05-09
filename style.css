@@ -1,0 +1,124 @@
+/* verde logo 00dd00 - giallo bar f5b453 - verde bar 1ec31e - rosso bar be4141 */
+
+*{
+  font-family: 'Comfortaa', cursive;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.corpo{
+  background-color: rgba(0, 0, 0, .5);
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 75px;
+  margin-top: 25px;
+  border-radius: 15px;
+  position: relative;
+}
+
+header{
+  margin: 5px;
+  z-index: 2;
+}
+
+#logo{
+  width: 200px;
+}
+
+#brokenwall{
+  width: 150px;
+  position: absolute;
+  left: 910px;
+  top: 405px;
+  visibility: hidden;
+}
+
+nav{
+  position: relative;
+}
+
+.bottoni{
+  background-color: #00dd00;
+  padding: 10px;
+  color: black;
+}
+
+.bottone{
+  font-size: 11px;
+  padding: 2px;
+  margin: 5px;
+  position: relative;
+  z-index: 4;
+}
+
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+
+#goku{
+  width: 74px;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+.gokucontainer{
+  position: absolute;
+  left: 263px;
+  top: 49%;
+  transform: translate(0%, -50%);
+  z-index: 3;
+}
+
+main{
+  text-align: left;
+  z-index: 1;
+}
+
+section{
+  margin-top: 25px;
+}
+
+section > h3{
+  display: inline-block;
+}
+
+section > div{
+  height: 25px;
+  border-radius: 5px;
+}
+
+section > input, h3, p, div{
+  margin: 3px;
+}
+
+#barra1{
+  background-color: #f5b453;
+  width: 350px;
+}
+
+#barra2{
+  background-color: #1ec31e;
+  width: 500px;
+  max-width: 1020px;
+  padding: 5px;
+  position: relative;
+  background-blend-mode: hard-light;
+}
+
+#barra3{
+  background-color: #be4141;
+  width: 150px;
+}
+
+.riga-indirizzo:before{
+  content: "\21A6";
+}
